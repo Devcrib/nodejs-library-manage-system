@@ -1,0 +1,170 @@
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+	width: 100%;
+    height:100vh;
+    margin-left: -8px;
+    margin-top: -8px;
+    background-image: url(/assets/images/image1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .overlay {
+	width: inherit;
+        height: inherit;
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 5px ;
+        .heading {
+	        text-align: center;
+            font-size: 1.2em;
+            font-family: serif;
+            font-weight: 600;
+}
+        header{
+            font-size: 2em;
+            font-weight: bolder;
+            outline: none;
+
+        }
+        .underline {
+            height: 1.2vh;
+            width: 20vh;
+            background-color: goldenrod;
+            position: relative;
+            left: 45%;
+            border-radius: 10px;
+            outline: none;
+        }
+        .cover{
+            width: 30%;
+            height: 50vh;
+            position: relative;
+            left: 35%;
+            top: 10%;
+            border: 4px solid #888888;
+            box-shadow: 10px 10px 10px #888888;
+            padding: 20px;
+            border-radius: 20px;
+            outline: none;
+            .details{
+                width: 80%;
+                height: 40px;
+                margin: 20px 20px 10px 40px;
+                border-radius: 20px;
+                padding-left: 10px;
+                outline: none;
+            }
+            #check{
+                margin: 5px 5px 5px 40px;
+            }
+            #butty{
+                width: 120px;
+                height: 30px;
+                border: 0px solid black;
+                background-color:rgba(10, 10, 10, .2);
+                color: white;
+                font-weight: bold;
+                border-radius: 20px;
+                outline: none;
+            }
+            #butty:hover{
+                background-color: rgba(10, 10, 10, .6);
+            }
+            #submit{
+                width: 80%;
+                height: 40px;
+                color: white;
+                background-color: red;
+                font-weight: bolder;
+                opacity: .5;
+                outline: none;
+                border-radius: 20px;
+                margin: 20px 10px 10px 40px;
+                box-shadow: 20px 20px 20px #bbb
+            }#submit:hover{
+                opacity: .9;
+            }
+            button{
+                margin-left: 60px;
+            }
+            span{
+//                text-align: center;
+                margin: 30px 10px 10px 50px;
+                a{
+                    color:red;
+                    margin-left: 0px;
+                }
+            }
+}
+    }
+}
+
+#body{
+    overflow: scroll;
+}
+#container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/assets/images/library.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: -8px;
+    margin-top: -20px;
+    padding: 15px;
+    #heading{
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+    }
+    #content {
+	height: 70vh;
+        width: 35%;
+        position: relative;
+        left: 30%;
+        outline: none;
+        background-color: black;
+        opacity: .8;
+        padding: 20px;
+        .labels {
+            color: white;
+            opacity: 1;
+	        padding: .5em 1em .5em 1em ;
+            outline: none;
+            input{
+                position: relative;
+                width: 30vh;
+                height: 3.5vh;
+                float: right;
+            }
+}
+        #labels{
+            position: relative;
+            left: 55%;
+            width: none;
+            outline: none;
+            color: white;
+        }
+        a{
+            position: relative;
+            left: 30%;
+            button{
+            width: 20vh;
+            height: 6vh;
+            background-color: red;
+            opacity: .5;
+            color: white;
+            border-radius: 20px;
+            outline: none;
+            border: none;
+//            box-shadow: 10px 5px 10px gray;
+            }
+            button:hover{
+                opacity: .9;
+            }
+        }
+}
+}
